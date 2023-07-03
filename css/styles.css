@@ -532,18 +532,19 @@ img {
   justify-content: center;
   cursor: pointer;
   padding: 0;
+  background-color: #e7e9fc;
   transition: background-color var(--transition), border var(--transition);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--hover-color);
+  background-color: #404bbf;
   border: none;
 }
 
 .modal-btn:hover .btn-close,
 .modal-btn:focus .btn-close {
-  fill: var(--background-color);
+  fill: #ffffff;
 }
 
 .btn-close {
