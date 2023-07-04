@@ -508,6 +508,7 @@ img {
 .modal {
   width: 408px;
   min-height: 584px;
+  padding: 72px 24px 24px 24px;
   border-radius: 4px;
   position: absolute;
   top: 50%;
@@ -524,14 +525,15 @@ img {
   height: 24px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
   position: absolute;
   top: 24px;
   right: 24px;
-  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   padding: 0;
+  color: var(--headings-color);
   background-color: #e7e9fc;
   transition: background-color var(--transition), border var(--transition);
 }
