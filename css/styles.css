@@ -536,12 +536,11 @@ img {
   transition: background-color var(--transition), border var(--transition);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:focus .btn-close,
+.modal-btn:hover .btn-close {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
-  transition: fill var(--transition);
 }
 
 .btn-close {
