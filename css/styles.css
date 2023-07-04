@@ -541,11 +541,7 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
-}
-
-.modal-btn:hover.btn-close,
-.modal-btn:focus.btn-close {
-  fill: #ffffff;
+  transition: fill var(--transition);
 }
 
 .btn-close {
